@@ -5,3 +5,5 @@ Random React Library
 - Clone the repo and move or link the content of `src` to the appropriate position in your code
 - Edit `react.js` and `react-dom.js` to import React from the location of your choice (the default is not for production!)
 - Import the components / files you want and happy coding <3
+---
+- If the uncommitted changes to the files annoy you, have a look at `ignore-react.sh`.
