@@ -7,3 +7,12 @@ Random React Library
 - Import the components / files you want and happy coding <3
 ---
 - If the uncommitted changes to the files annoy you, have a look at `ignore-react.sh`.
+
+## Controlled Components
+This library contains various simple wrappers around html tags turning them into [controlled components](https://reactjs.org/docs/forms.html#controlled-components):
+
+| HTML      | RRL                      | File         |
+|-----------|--------------------------|--------------|
+| `<input>` | `TextInput`, `LazyInput` | src/input.js |
+
+They all require (and are controlled by) the two properties `value` and `setValue`.
